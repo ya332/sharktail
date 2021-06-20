@@ -4,11 +4,11 @@
 # Make sure the input to this matches the version number in package.json
 release () {
   echo "Version $1 in progress"
-  git tag v$1 &&
-  git push origin --tags &&
+  git tag v$1
+  git push origin --tags
   git add .
-  git commit -nm "Bump version to $1.$2.$3" &&
-  git push origin master &&
+  git commit -nm "Bump version to $1.$2.$3"
+  git push origin master
   npm publish
   echo "Version $1 published successfully"
 }
