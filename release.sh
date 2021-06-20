@@ -7,7 +7,7 @@ release () {
   git tag v$1
   git push origin --tags
   git add .
-  git commit -nm "Bump version to $1.$2.$3"
+  git commit -m "Bump version to $1.$2.$3"
   git push origin master
   npm publish
   echo "Version $1 published successfully"
