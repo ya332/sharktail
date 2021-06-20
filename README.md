@@ -17,7 +17,7 @@ Official Node.js client for [https://sharktail.herokuapp.com](https://sharktail.
 
 Show output on both stdout and Sharktail:
 
-    $ echo "ciao" | sharktail
+    $ echo "hello" | sharktail
 
 
 ## Author
