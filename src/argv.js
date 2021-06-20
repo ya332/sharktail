@@ -15,9 +15,16 @@ var argv = require('yargs')
     type: 'number',
     default: 2390
   })
+  .option('delay', {
+    alias: 'd',
+    demand: false,
+    describe: 'seconds of delay before having the stdout shown',
+    type: 'number'
+  })
   .example('echo "hello" | sharktail')
   .example('echo "hello" | sharktail --host myHost.io --port 1337')
   .example('echo "hello" | sharktail --host 127.0.0.1 --port 2390')
+  .example('echo "hello" | sharktail --host 127.0.0.1 --port 2390 --delay 5')
   .epilogue('@Author: Yigit Alparslan - github.com/ya332/sharktail - @Copyright 2021')
   .argv
 
