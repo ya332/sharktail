@@ -1,6 +1,6 @@
 {
   "name": "sharktail",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Official Sharktail CLI written in Node.js",
   "main": "index.js",
   "preferGlobal": true,
