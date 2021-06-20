@@ -6,8 +6,6 @@ var opts = {
     host: argv.host,
     port: argv.port
 }
-console.log(opts)
-
 const mySocket = new WebSocket(`ws://${opts.host}:${opts.port}`);
 mySocket.onopen = event => console.log('open')
 mySocket.onmessage = event => {
