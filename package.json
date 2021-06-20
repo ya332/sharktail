@@ -1,6 +1,6 @@
 {
   "name": "sharktail",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Official Sharktail CLI written in Node.js",
   "main": "index.js",
   "preferGlobal": true,
@@ -21,10 +21,16 @@
   "engines": {
     "node": ">=4.8.0"
   },
-  "keywords": ["stream terminal","share terminal","monitor","sharktail"],
+  "keywords": [
+    "stream terminal",
+    "share terminal",
+    "monitor",
+    "sharktail"
+  ],
   "author": "Yigit Alparslan (ya332)",
   "license": "MIT",
   "dependencies": {
-    "yargs": "^17.0.1"
+    "yargs": "^17.0.1",
+    "ws": "^7.4.5"
   }
 }

@@ -1,11 +1,12 @@
 #!/usr/bin/env node
+'use strict'
 var argv = require('./src/argv')
 const WebSocket = require('ws');
 var opts = {
-    host: argv.host || 'sharktail.herokuapp.com',
-    port: argv.port || 2390,
-    delay: argv.delay || null
-  }
+    host: argv.host,
+    port: argv.port
+}
+console.log(opts)
 
 const mySocket = new WebSocket(`ws://${opts.host}:${opts.port}`);
 mySocket.onopen = event => console.log('open')
