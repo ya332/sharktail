@@ -1,0 +1,30 @@
+{
+  "name": "sharktail",
+  "version": "1.0.0",
+  "description": "Official Sharktail CLI written in Node.js",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "sharktail": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ya332/sharktail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ya332/sharktail/issues"
+  },
+  "homepage": "https://github.com/ya332/sharktail#readme",
+  "engines": {
+    "node": ">=4.8.0"
+  },
+  "keywords": ["stream terminal","share terminal","monitor","sharktail"],
+  "author": "Yigit Alparslan (ya332)",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.0.1"
+  }
+}
