@@ -1,6 +1,6 @@
 {
   "name": "sharktail",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Official Sharktail CLI written in Node.js",
   "main": "index.js",
   "preferGlobal": true,
@@ -30,7 +30,7 @@
   "author": "Yigit Alparslan (ya332)",
   "license": "MIT",
   "dependencies": {
-    "yargs": "^17.0.1",
-    "ws": "^7.4.5"
+    "ws": "^7.4.5",
+    "yargs": "^17.0.1"
   }
 }

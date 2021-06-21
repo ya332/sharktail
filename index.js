@@ -7,7 +7,7 @@ var opts = {
     port: argv.port,
     delay: argv.delay || null
 }
-const mySocket = new WebSocket(`ws://${opts.host}:${opts.port}`);
+const mySocket = new WebSocket(`wss://${opts.host}`);
 mySocket.onopen = event => console.log('open')
 mySocket.onmessage = event => {
     console.log('%s', event.data);

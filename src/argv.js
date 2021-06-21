@@ -11,9 +11,9 @@ var argv = require('yargs')
   .option('port', {
     alias: 'p',
     demand: false,
-    describe: 'custom port (default 2390)',
+    describe: 'custom port (default 28251)',
     type: 'number',
-    default: 2390
+    default: 28251
   })
   .option('delay', {
     alias: 'd',
