@@ -41,7 +41,6 @@ where dummy_out.py is
 
 ```python
 import time
-import sys
 
 for i in range(10):
     print("hello {}".format(i))
